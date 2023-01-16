@@ -1,0 +1,45 @@
+<!-- To do: new game button, football score, bills, highlight leader, fix formatting -->
+
+
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+        </style>         
+    </head>
+    <body>
+        <div class="mainContainer">
+            <div class="homeGuestContainer">
+                <div>
+                    <h3>HOME</h3>
+                </div>
+                <div class="scoreBox">
+                    <h5 class="scoreNumber" id="homeScore-El">0</h5>
+                </div>
+                <div class="pointButtonContainer">
+                    <button class="pointButtons" onclick="homePlusOne()">+1</button>
+                    <button class="pointButtons" onclick="homePlusTwo()">+2</button>
+                    <button class="pointButtons" onclick="homePlusThree()">+3</button>
+                </div>
+            </div>
+             <div class="homeGuestContainer">  
+                <div>
+                    <h3>GUEST</h3>
+                </div>   
+                <div class="scoreBox">
+                    <h5 class="scoreNumber" id="guestScore-El">0</h5>
+                </div>
+                <div = class="pointButtonContainer">
+                    <button class="pointButtons" onclick="guestPlusOne()">+1</button>
+                    <button class="pointButtons" onclick="guestPlusTwo()">+2</button>
+                    <button class="pointButtons" onclick="guestPlusThree()">+3</button>
+                </div>
+             </div>
+            <div>
+                <button id="newGameButton" onclick="newGame()">New Game</button>
+            </div>
+         </div>
+        <script src="index.js"></script>
+    </body>
+</html>
