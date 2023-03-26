@@ -1,8 +1,8 @@
 let homeCount = 0
 let guestCount = 0
 
-let homeScoreEl = document.getElementById("homeScore-El")
-let guestScoreEl = document.getElementById("guestScore-El")
+const homeScoreEl = document.getElementById("homeScore-El")
+const guestScoreEl = document.getElementById("guestScore-El")
 
 function homePlusOne(){
     homeCount += 1
